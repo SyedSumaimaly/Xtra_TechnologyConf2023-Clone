@@ -1,0 +1,110 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Oswald Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Header */
+
+header {
+    background-image: url(/Assets/header-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.primary {
+    color: #5c0abe;
+}
+
+.primary_two {
+    color: #555555;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.btn_ticket {
+    padding: 8px 20px;
+    border: 1px solid black;
+}
+
+.col_head_one {
+    width: 80% !important;
+}
+
+.navbar-brand {
+    width: 30% !important;
+}
+
+.nav-item a {
+    color: #55555569;
+    font-weight: 670;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.nav-item a:hover {
+    color: #5c0abe;
+}
+
+.nav-item a:active {
+    color: #5c0abe !important;
+}
+
+.nav-item a:focus {
+    color: #5c0abe !important;
+}
+
+.navbar {
+    padding-top: 20px;
+    width: 98%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+/* Info Header Section */
+
+.HeaderInfo {
+    box-sizing: border-box;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 12%;
+}
+
+.h2_Tech_head {
+    font-weight: 790 !important;
+    line-height: 25px;
+    font-family: 'Oswald';
+    letter-spacing: 8px;
+    font-size: 46px !important;
+}
+
+.heading_tech_third {
+    line-height: 42px !important;
+    /* background-color: red; */
+    font-weight: 300;
+    padding-top: 5px;
+    font-size: 30px !important;
+}
+
+.Tech_para {
+    font-family: 'Roboto';
+    line-height: 32.4px;
+    font-weight: 400px;
+    padding-top: 40px;
+    font-size: 18px !important;
+}
