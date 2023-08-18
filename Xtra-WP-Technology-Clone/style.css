@@ -134,23 +134,27 @@ header {
     padding-bottom: 50px;
     font-size: 20px;
     position: absolute;
-    top: 95%;
+    bottom: -200px;
+    left: 20px;
     width: 50%;
 }
 
 .headerIcon_SubDivOne {
     border-right: 1px solid rgb(255, 255, 255);
+    margin: auto;
 }
 
 .headerIcon_I {
-    font-size: 1.8em !important;
+    font-size: 1.3em !important;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 
 .header_sub_para_detail p {
     line-height: 15px;
+    text-align: left;
+    width: 100%;
 }
 
 .sub_row {
@@ -161,10 +165,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .headerSecond_iconDiv img {
     width: 90%;
+    cursor: pointer;
     opacity: 0.9;
 }
 
@@ -172,4 +179,78 @@ header {
     opacity: 1;
     transform: translateY(-10px);
     transition: ease-in-out 0.5s;
+}
+
+.SectonTwoSub_One {
+    width: 65%;
+}
+
+.SectonTwoSub_One img {
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding-top: 10%;
+    padding-left: 3%;
+}
+
+.SectonTwoSub_Two {
+    position: absolute;
+    left: 50%;
+    height: 66vh;
+    bottom: 30px;
+    width: 45%;
+    display: flex;
+    background-image: url(Assets/bg1.png);
+}
+
+.SecondTwoDiv_Info {
+    margin: auto;
+    /* background-color: red; */
+    width: 90%;
+}
+
+.Info_FirstHeading {
+    color: #888888;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Info_SecondHeading {
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 700;
+    font-family: 'Oswald';
+}
+
+.Info_para {
+    font-family: 'Roboto';
+    color: #555555;
+    font-size: 18px;
+    line-height: 32.4px;
+    font-weight: 400;
+}
+
+.btn_InfoDiv{
+    background-color: #00ffcc;
+    border: transparent;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+
+/* Counter */
+
+.counter{
+    background-color: red;
+    text-align: center;
+}
+
+.counter:hover{
+background-color: #5c0abe;
+}
+
+.CounterDiv{
+ width: 95%;
+ margin: 0 auto;
 }
