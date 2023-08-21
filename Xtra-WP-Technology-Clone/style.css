@@ -197,11 +197,12 @@ header {
 
 .SectonTwoSub_Two {
     position: absolute;
-    left: 50%;
+    left: 52%;
     height: 66vh;
     bottom: 30px;
     width: 45%;
     display: flex;
+    box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, .13);
     background-image: url(Assets/bg1.png);
 }
 
@@ -228,29 +229,340 @@ header {
     font-family: 'Roboto';
     color: #555555;
     font-size: 18px;
+    padding-top: 5%;
     line-height: 32.4px;
     font-weight: 400;
 }
 
-.btn_InfoDiv{
+.btn_InfoDiv {
     background-color: #00ffcc;
     border: transparent;
     border-radius: 0;
     padding: 15px 40px;
 }
 
-/* Counter */
+/* Third Section / Counter */
 
-.counter{
-    background-color: red;
+.ThirdSectionMain {
+    padding-top: 8%;
+}
+
+.counter {
+    text-align: center;
+    margin: 2%;
+    padding: 40px 0px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .9);
+}
+
+.counter h6 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #5c0abe;
+}
+
+.counter:hover h6 {
+    color: #00ffcc;
+}
+
+.counter h3 {
+    font-family: 'Oswald';
+    font-size: 60px;
+    color: #555555;
+}
+
+.counter:hover h3 {
+    color: white;
+}
+
+.counter:hover {
+    box-shadow: none;
+    background-color: #5c0abe;
+    transition: all 0.6s;
+}
+
+.CounterDiv {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.ThirdSection_FirstHeading {
+    font-size: 20px;
+    font-family: 'Oswald';
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    color: #888888;
+}
+
+.ThirdSection_SecondHeading {
+    color: #5c0abe;
+    font-family: 'Oswald';
+    font-size: 36px;
+    font-weight: 700;
     text-align: center;
 }
 
-.counter:hover{
-background-color: #5c0abe;
+/* Fourth Section */
+
+.fourthSection {
+    background-image: url(Assets/bg3.jpg);
+    height: 90vh;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.CounterDiv{
- width: 95%;
- margin: 0 auto;
+.fourthSection_head h2 {
+    font-size: 45px !important;
+    padding-top: 20%;
+    line-height: 50.4px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.fourthSection_SecondMain {
+    position: absolute;
+    bottom: -365%;
+    height: 100vh;
+}
+
+.fourthImg_Col {
+    width: 20%;
+}
+
+.fourthImg_Col img {
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+}
+
+.fourthImg_row {
+    padding-top: 8%;
+}
+
+.btn_fourthSec_Div {
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 5%;
+    /* padding-bottom: 10%; */
+}
+
+.btn_fourthSec_Div button {
+    padding: 25px 50px;
+    border: transparent;
+    border-radius: none;
+}
+
+/* Fivth Section */
+
+.fivthSection {
+    background-image: url(Assets/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.fivthSection_firstRow {
+    padding-top: 20%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.fivthSection_Heading {
+    text-align: left;
+}
+
+.fivthSection_firstRow h4 {
+    font-family: 'Oswald';
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #888888;
+}
+
+.fivthSection_firstRow h2 {
+    font-size: 36px;
+    font-family: 'Oswald';
+    line-height: 50.4px;
+    font-weight: 700;
+}
+
+.fivthSection_secondSub_Col span {
+    color: #888888;
+    font-size: 13px;
+    font-family: 'Roboto';
+    line-height: 23.4px;
+
+}
+
+.fivthSection_secondSub_Col {
+    background-color: white;
+    text-align: center;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+.fivthSection_secondSub_Col h2 {
+    color: #5c0abe;
+}
+
+/* Sixth Section */
+
+.sixthSection {
+    background-image: url(Assets/bg5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+    width: 95%;
+    left: 2.5%;
+    right: 2.5%;
+    top: 550%;
+    position: absolute;
+}
+
+.sixthSection_subDiv_head {
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.sixthSection_subDiv_head p {
+    font-family: 'Oswald';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.sixthSection_subDiv_head h1 {
+    font-family: 'Oswald';
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+
+.sixthSection_subDiv {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.sixthSection_subDiv_img {
+    margin: 0 auto;
+    width: 20% !important;
+}
+
+.sixthSection_subDiv_img img {
+    width: 80%;
+    text-align: center;
+
+}
+
+/* Seventh Section */
+
+.seventhSection_sub h5 {
+    color: #888888;
+    text-align: left;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.titlehead {
+    color: #5c0abe;
+    font-family: 'Oswald';
+    line-height: 33.6px;
+    font-size: 24px;
+    padding-top: 7%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.seventhSection_sub h2 {
+    color: #5c0abe;
+    font-family: 'Oswald';
+    line-height: 40.4px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.seventhSection_sub h4 {
+    color: #888888;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 28.8px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seventhSection {
+    padding-top: 30%;
+}
+
+.seventhSection_sub {
+    width: 15%;
+}
+
+.seventhSection_sub img {
+    width: 100%;
+}
+
+.seventhSection_btn {
+    padding-top: 30%;
+}
+
+.seventhSection_btn button {
+    padding: 15px 30px;
+    border-radius: none;
+    border: transparent;
+}
+
+.seventhSectionSecondDiv {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.seventhSectionSecondDiv .row {
+    width: 70%;
+}
+
+.dayClass {
+    color: #888888;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 40px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .1);
+}
+
+.active {
+    background-color: #5c0abe;
+    color: white;
+}
+
+.dayClass h2 {
+    font-family: 'Oswald';
+    font-size: 32px;
+    line-height: 57.6px;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    background-color: #5c0abe;
+    color: white;
+    text-align: left;
+    font-size: 20px !important;
+    padding-top: 2.5%;
+    padding-left: 3.5%;
+    padding-bottom: 2.5%;
 }
