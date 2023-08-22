@@ -44,12 +44,47 @@ header {
     background-color: white;
 }
 
-.btn_ticket:hover{
-    box-shadow: 0px 9px 0px -5px #8548cf;
-    background-color: #5c0abe;   
+.btn_ticket:hover {
+    cursor: pointer;
+    box-shadow: 0px 9px 0px -5px #2e203f;
+    background-color: #5c0abe;
     color: white;
+    transition: all 0.6s;
 }
 
+.btn_sched {
+    padding: 8px 20px;
+    border-radius: 0px;
+    background-color: #e1e1e1;
+    box-shadow: 0 16px 0 -10px #d1d1d1;
+}
+
+.btn_sched:hover {
+    padding: 8px 20px;
+    border-radius: 0px;
+    box-shadow: 0 16px 0 -10px #2e203f;
+    background-color: #5c0abe;
+    color: white;
+    transition: all 0.6s;
+}
+
+.btn_tickettwo {
+    color: rgba(17, 17, 17, 0.8);
+    background-color: #00ffcc;
+    border-radius: 0px;
+    padding: 8px 20px;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
+}
+
+.btn_tickettwo:hover {
+    transition: all 0.6s;
+    color: rgba(17, 17, 17, 0.8);
+    box-shadow: 0 16px 0 -10px #2e203f;
+    background-color: #5c0abe;
+    border-radius: 0px;
+    padding: 8px 20px;
+    color: white;
+}
 
 .col_head_one {
     width: 80% !important;
@@ -243,10 +278,21 @@ header {
 }
 
 .btn_InfoDiv {
-    background-color: #00ffcc;
     border: transparent;
     border-radius: 0;
     padding: 15px 40px;
+    background-color: #00ffcc;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
+}
+
+.btn_InfoDiv:hover {
+    border: transparent;
+    border-radius: 0;
+    color: white;
+    padding: 15px 40px;
+    background-color: #5c0abe;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
+    transition: all 0.6s;
 }
 
 /* Third Section / Counter */
@@ -373,10 +419,21 @@ header {
 }
 
 .btn_fourthSec_Div button {
-    padding: 25px 50px;
+    padding: 15px 50px;
+    color: #3a3939;
     border: transparent;
-    border-radius: none;
+    border-radius: none !important;
+    background-color: #00ffcc;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
 }
+
+.btn_fourthSec_Div button:hover {
+    color: white;
+    background-color: #5c0abe;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
+}
+
+
 
 /* Fivth Section */
 
@@ -525,6 +582,19 @@ header {
 .seventhSection {
     padding-top: 30%;
     padding-bottom: 10%;
+}
+
+.btnView {
+    background-color: #00ffcc;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
+    color: #3a3939;
+}
+
+.btnView:hover {
+    background-color: #5c0abe;
+    box-shadow: 0px 16px 0px -10px #00ddb1;
+    color: white;
+    transition: all 0.6s;
 }
 
 .seventhSection_sub {
