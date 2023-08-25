@@ -12,10 +12,9 @@
 <body>
 
     <!-- Navbar -->
-
-    <header>
-        <nav class="row navbar navbar-expand-lg fixed-top">
-            <div class=" container-fluid mx-auto">
+    <div class="bg-image">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid mx-auto">
                 <a class="navbar-brand logo" href="#"><img src="Assets/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,11 +46,12 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn_ticket" type="submit">Buy Ticket</button>
+                        <button class="btn btn_ticket " type="submit">Buy Ticket</button>
                     </form>
                 </div>
             </div>
         </nav>
+
 
         <!-- Info Header Section -->
 
@@ -66,27 +66,24 @@
                     <p class="f-2 Tech_para primary_two">Technology is the sum of techniques, skills, methods, and
                         processes used in the
                         production of
-                        goods or services or in the accomplishment of objectives, such as scientific investigation.</p>
+                        goods or services or in the accomplishment of objectives, such as scientific investigation.
+                    </p>
                 </div>
-            </div>
-            <div class="col-sm-2">
-            </div>
-            <div class="col">
-                <img src="Assets/man.png" alt="">
-            </div>
-            <div class="row btn_section_head">
-                <div class="col">
-                    <div class="col headInfoBtnDiv">
-                        <button class="btn btn_sched" type="submit">Schedule</button>
-                        <button class="btn btn_tickettwo" type="submit">Buy Ticket</button>
+                <div class="row btn_section_head">
+                    <div class="col">
+                        <div class="col headInfoBtnDiv">
+                            <button class="btn btn_sched" type="submit">Schedule</button>
+                            <button class="btn btn_tickettwo" type="submit">Buy Ticket</button>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                </div>
-                <div class="col">
-                </div>
             </div>
+            <div class="col HeaderSecImagMan">
+                <img src="Assets/man.png" alt="">
+            </div>
+
         </div>
+    </div>
     </header>
 
     <div class="main">
@@ -94,42 +91,30 @@
         <!-- Header Section Two -->
 
         <div class="row headerMainIconDiv">
-            <div class="col">
-                <div class="col headerIconDiv">
-                    <div class="row">
-                        <div class="col headerIcon_SubDivOne">
-                            <div class="row sub_row">
-                                <div class="col headerIcon_I">
-                                    <i class="fa-regular fa-calendar-days fa-2xl" style="color: #ffffff;"></i>
-                                </div>
-                                <div class="col header_sub_para_detail">
-                                    <p>15th to 18th</p>
-                                    <p>junly 2023</p>
-                                </div>
-                            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 headerIconDiv">
+                <div class="row">
+                    <div class="col headerIcon_I">
+                        <i class="fa-regular fa-calendar-days fa-2xl" style="color: #ffffff;"></i>
+                        <div class="header_sub_para_detail">
+                            <p>15th to 18th</p>
+                            <p>junly 2023</p>
                         </div>
-
-                        <div class="col">
-                            <div class="row sub_row">
-                                <div class="col headerIcon_I">
-                                    <i class="fa-solid fa-map-location-dot fa-2xl" style="color: #ffffff;"></i>
-                                </div>
-                                <div class="col header_sub_para_detail">
-                                    <p>
-                                        Business Hall
-                                    </p>
-                                    <p>
-                                        New York
-                                    </p>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col headerIcon_I headerIconsecondDiv">
+                        <i class="fa-solid fa-map-location-dot fa-2xl" style="color: #ffffff;"></i>
+                        <div class="header_sub_para_detail">
+                            <p>
+                                Business Hall
+                            </p>
+                            <p>
+                                New York
+                            </p>
                         </div>
-
                     </div>
                 </div>
             </div>
-            <div class="col headerSecondDivMain">
-                <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="row headerSecond_iconDivMain">
                     <div class="col headerSecond_iconDiv">
                         <img src="Assets/netlogo.png">
                     </div>
@@ -143,13 +128,15 @@
             </div>
         </div>
 
+
+
         <!-- Section Two -->
 
-        <div class="row" style="position: relative;">
-            <div class="col-md-8 SectonTwoSub_One">
+        <div class="row sectionTwoMain">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 SectonTwoSub_One">
                 <img src="Assets/video.jpg" alt="">
             </div>
-            <div class="col-md-4 SectonTwoSub_Two">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 SectonTwoSub_Two">
                 <div class="row SecondTwoDiv_Info">
                     <div>
                         <p class="h4 Info_FirstHeading">ABOUT EVENT</p>
@@ -171,9 +158,8 @@
 
         <div class="row ThirdSectionMain">
             <div class="col">
-
             </div>
-            <div class="col-6">
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6">
                 <p class="h4 ThirdSection_FirstHeading">WHAT WE DID LAST YEAR</p>
                 <p class="h2 ThirdSection_SecondHeading">WHY OUR CONFERENCE IS A PERFECT EVENT?</p>
             </div>
@@ -230,7 +216,7 @@
 
             </div>
 
-            <div class="row fourthImg_row fourthSection_row">
+            <div class="row fourthImg_row  fourthSection_row">
                 <div class="col fourthImg_Col">
                     <img src="Assets/img4.jpg">
                 </div>
@@ -243,20 +229,20 @@
             </div>
 
             <div class="row">
-                <div class="col"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12"></div>
 
-                <div class="col btn_fourthSec_Div">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 btn_fourthSec_Div">
                     <button class="btn btn-primary">View all photos</button>
                 </div>
 
-                <div class="col"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12"></div>
             </div>
         </div>
 
         <!-- Fivth Section -->
         <div class="fivthSection">
             <div class="row fivthSection_firstRow">
-                <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="fivthSection_Heading">
                         <h4>HURRY UP!</h4>
                         <h2 class="primary">
@@ -265,7 +251,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="row">
                         <div class="col fivthSection_secondSub_Col">
                             <h2>13</h2>
@@ -323,45 +309,53 @@
 
         <div class="container">
             <div class="row seventhSection gx-5">
-                <div class="col seventhSection_sub">
-                    <h5>WHO?</h5>
-                    <h2>
-                        OUR SPEAKERS
-                    </h2>
-                    <div class="seventhSection_btn">
-                        <button class="btn btn-primary btnView">View all Speakers</button>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col seventhSection_sub">
+                            <h5>WHO?</h5>
+                            <h2>
+                                OUR SPEAKERS
+                            </h2>
+                            <div class="seventhSection_btn">
+                                <button class="btn btn-primary btnView">View all Speakers</button>
+                            </div>
+                        </div>
+
+                        <div class="col seventhSection_sub ">
+                            <div>
+                                <img src="Assets/tm1.jpg">
+                            </div>
+                            <p class="titlehead">DR. JACK SMITHSON</p>
+                            <h4>CEO of Company</h4>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col seventhSection_sub ">
-                    <div>
-                        <img src="Assets/tm1.jpg">
-                    </div>
-                    <p class="titlehead">DR. JACK SMITHSON</p>
-                    <h4>CEO of Company</h4>
-                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="row">
+                        <div class="col seventhSection_sub ">
+                            <div>
+                                <img src="Assets/tm2.jpg">
+                            </div>
+                            <p class="titlehead">ELON COMITOVIC</p>
+                            <h4>Ph.D. of Business</h4>
+                        </div>
 
-                <div class="col seventhSection_sub ">
-                    <div>
-                        <img src="Assets/tm2.jpg">
+                        <div class="col seventhSection_sub ">
+                            <div>
+                                <img src="Assets/tm3.jpg">
+                            </div>
+                            <p class="titlehead">DR. NOAH JACKSON</p>
+                            <h4>Businessman</h4>
+                        </div>
                     </div>
-                    <p class="titlehead">ELON COMITOVIC</p>
-                    <h4>Ph.D. of Business</h4>
-                </div>
-
-                <div class="col seventhSection_sub ">
-                    <div>
-                        <img src="Assets/tm3.jpg">
-                    </div>
-                    <p class="titlehead">DR. NOAH JACKSON</p>
-                    <h4>Businessman</h4>
                 </div>
             </div>
         </div>
 
         <div class="seventhSectionSecondDiv">
             <div class="container">
-                <div class="row ">
+                <div class="row" style="margin: 0 auto;">
                     <div class="col dayClass active">
                         <h2>Day 1</h2>
                         <p>15th july 2023</p>
@@ -383,17 +377,17 @@
 
         <div class="container NinthSection">
             <div class="row">
-                <di class="col NinthSection_col">
+                <di class="col-lg-4 col-md-4 col-sm-4 col-12 NinthSection_col">
                     <p>PERSONAL</p>
                     <h1><sup>$</sup>19.99</h1>
                     <button class="btn btn-primary">Buy Ticket</button>
                 </di>
-                <di class="col NinthSection_col">
+                <di class="col-lg-4 col-md-4 col-sm-4 col-12 NinthSection_col">
                     <p>TEAM</p>
                     <h1><sup>$</sup>29.99</h1>
                     <button class="btn btn-primary">Buy Ticket</button>
                 </di>
-                <di class="col NinthSection_col">
+                <di class="col-lg-4 col-md-4 col-sm-4 col-12 NinthSection_col">
                     <div>
                         <p>ULTIMATE</p>
                         <h1><sup>$</sup>49.99</h1>
@@ -405,10 +399,10 @@
 
         <div class="footertwo">
             <div class="row">
-                <div class="col footerTwosub_one">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 footerTwosub_one">
                     <div class="row">
                         <div class="col">
-                            <img src="Assets/logo.png">
+                            <img class="footerImg" src="Assets/logo.png">
                         </div>
                     </div>
                     <div class="row">
@@ -433,7 +427,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col footerTwosub_two">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 footerTwosub_two">
                     <div class="row">
                         <div class="col">
                             <h2>Venue</h2>
@@ -462,7 +456,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col footerTwosub_Third">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 footerTwosub_Third">
                     <img src="Assets/map.jpg" alt="Map">
                 </div>
             </div>
