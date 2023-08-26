@@ -53,7 +53,7 @@ header {
 }
 
 .navbar-nav {
-    background-color: yellow;
+
 }
 
 
@@ -272,6 +272,7 @@ header {
 .SecondTwoDiv_Info {
     margin: auto;
     width: 90%;
+    /* background-color: red; */
 }
 
 .Info_FirstHeading {
@@ -918,6 +919,8 @@ footer {
         background-image: url(Assets/bg1.png);
     }
 
+    
+
     .SectonTwoSub_One img {
         width: 100%;
         padding-left: 0%;
@@ -960,6 +963,13 @@ footer {
 
     .SectonTwoSub_One img{
         height: auto;
+    }
+
+    .logo{
+        width: 40%;
+    }
+    .logo img {
+        width: 70%;
     }
 }
 
@@ -1122,6 +1132,13 @@ footer {
     .SectonTwoSub_One img{
         height: 50vh;
     }
+
+    .logo{
+        width: 40%;
+    }
+    .logo img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 300px) {
@@ -1153,6 +1170,13 @@ footer {
 
     .SectonTwoSub_One img{
         height: 50vh;
+    }
+
+    .logo{
+        width: 40%;
+    }
+    .logo img {
+        width: 100%;
     }
 }
 
